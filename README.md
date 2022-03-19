@@ -11,19 +11,19 @@ JavaScript, and the D3.js library is used to traverse the data retrieved from th
 
 ## Results
 
-The page is loaded with a default view of the earth in in street mode. All earthquakes for the past seven days are represented; the larger the radius and daker the color, the larger the earthquake.  Fault lines are displayed as well by default. The lower right corner contains a legend explaining the association of color to magnitude.
+The page is loaded with a default view of the earth in street mode. All earthquakes for the past seven days are represented; the larger the radius and darker the color, the larger the earthquake.  Fault lines are also displayed by default. The lower right corner contains a legend explaining the color to magnitude correlation.
 
 ![Default View](/Earthquake_Challenge/Resources/Default.png)
 
-Clicking the marker displays a popup with the magnitude and location details. 
+Clicking on a  marker opens up a popup with the magnitude and location details. 
 
 ![Popup](/Earthquake_Challenge/Resources/Popup.png)
 
-A control in the upper right hand corner allows users to switch between map views
+A control in the upper right hand corner allows users to switch between map views.
 
 ![Map](/Earthquake_Challenge/Resources/satellite.png)
 
-The same control also allows users to apply layers, in the following example, only tectonic plates are chosen:
+The same control also allows users to apply layers. In the following example, only tectonic plates are chosen:
 
 ![Filter](/Earthquake_Challenge/Resources/FilteredOverlay.png)
 
